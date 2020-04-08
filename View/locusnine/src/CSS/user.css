@@ -1,0 +1,81 @@
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  border-bottom: 1px solid rgb(210,210,210);
+  color: rgb(75,75,75);
+  background-color: white;
+  font-size: 35px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-bottom: 15px;
+}
+
+.space{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  margin-right: 40px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: white;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.a{
+	height: 10px;
+	width:10px;
+}
+
+.abutton {
+  border: none;
+  color: white;
+  font-size: 16px;
+  min-height: 40px;  
+  background-color: #ffb01f;
+  padding-top: 5px;
+}
+
